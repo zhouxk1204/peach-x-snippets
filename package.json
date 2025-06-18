@@ -1,0 +1,35 @@
+{
+  "name": "peach-x-snippets",
+  "displayName": "Peach X Snippets",
+  "description": "Code snippets for Peach X – A high-performance Vue.js 3.0 Component Library for modern web development.",
+  "version": "0.0.3",
+  "author": "zhouxk",
+  "icon": "images/logo.png",
+  "publisher": "zhouxk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhouxk1204/peach-x-snippets"
+  },
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./snippets/vue.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/vue.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/vue.json"
+      }
+    ]
+  }
+}

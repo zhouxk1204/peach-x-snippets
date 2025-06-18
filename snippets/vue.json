@@ -1,0 +1,48 @@
+{
+  "p-button": {
+    "prefix": "pxb",
+    "body": [
+      "<p-button",
+      "  type=\"${1|primary,info,success,warn,danger|}\"",
+      "  size=\"${2|small,medium,large|}\"",
+      "  @click=\"$3\"",
+      ">$0</p-button>"
+    ],
+    "description": "Insert a p-button component with type and size options",
+    "scope": "vue,vue-html,html"
+  },
+  "p-divider": {
+    "prefix": "pxd",
+    "body": [
+      "<p-divider $0/>"
+    ],
+    "description": "Insert a p-divider component",
+    "scope": "vue,vue-html,html"
+  },
+  "p-ticker": {
+    "prefix": "pxt",
+    "body": [
+      "<p-ticker",
+      "  :from=\"$1\"",
+      "  :to=\"$2\"",
+      "  $0",
+      "/>"
+    ],
+    "description": "Insert a p-ticker component",
+    "scope": "vue,vue-html,html"
+  },
+  "p-config-provider": {
+    "prefix": "pxcp",
+    "body": [
+      "<p-config-provider",
+      "  :size=\"${1|small,medium,large|}\"",
+      "  :theme=\"${2|light,dark|}\"",
+      "  $3",
+      ">",
+      "  $0",
+      "</p-config-provider>"
+    ],
+    "description": "Peach X Config Provider (global size/theme configuration)",
+    "scope": "vue,vue-html,html"
+  }
+}
